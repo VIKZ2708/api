@@ -11,7 +11,7 @@ const db = mysql.createConnection({
     database : 'ContestSite'
 });
 
-// Connect
+//
 db.connect((err) => {
     if(err){
         throw err;
